@@ -20,7 +20,7 @@ const GoalItem = ({ id, onDelete, title, ...props }) => {
 
 const styles = StyleSheet.create({
   listItems: {
-    width: "70%",
+    width: "80%",
     padding: 10,
     backgroundColor: "#6fa832",
     marginVertical: 10,

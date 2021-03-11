@@ -1,0 +1,14 @@
+Building React Natie App Using Expo
+
+Software Requirements:
+1. Visual Studio Code
+2. Node(version 10 and above)
+3. Android Studio for Simulation of Android/IOS Device.
+4. Expo Android application for handling the app from mobile (Optional).
+
+Steps:
+1. Expo CLI installation
+     run npm install expo-cli --global
+
+1. Create React Native Project
+     run expo init project-name
