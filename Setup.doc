@@ -14,4 +14,4 @@ Steps:
      run expo init project-name
 
 3. Run the Application
-    run expo start
+     run expo start
