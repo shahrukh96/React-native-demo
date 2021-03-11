@@ -12,3 +12,6 @@ Steps:
 
 2. Create React Native Project
      run expo init project-name
+
+3. Run the Application
+    run expo start
