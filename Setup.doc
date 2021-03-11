@@ -10,5 +10,5 @@ Steps:
 1. Expo CLI installation
      run npm install expo-cli --global
 
-1. Create React Native Project
+2. Create React Native Project
      run expo init project-name
