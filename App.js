@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
-import { Button, StyleSheet, View, FlatList } from "react-native";
+import { Button, StyleSheet, View, FlatList, Text } from "react-native";
 
 import GoalItem from "./components/GoalItem";
 import GoalInput from "./components/GoalInput";
@@ -31,6 +31,8 @@ const App = () => {
 
   return (
     <View style={styles.screen}>
+      <Text style={styles.textContainer}>Sample Goal Application</Text>
+
       <Button
         title="Add New Goals"
         color="#32a897"
@@ -64,6 +66,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#6fa832",
     marginVertical: 10,
     borderRadius: 10,
+  },
+  textContainer: {
+    justifyContent: "space-around",
+    alignItems: "center",
+    color: "#a81d5c",
+    fontSize: 25,
+    fontWeight: "bold",
+    width: "100%",
+    padding: 5,
+    marginBottom: 5,
   },
 });
 
